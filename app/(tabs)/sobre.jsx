@@ -10,7 +10,7 @@ export default Sobre = ()=>{
 }
 
 
-const  Estilo = StyleSheet.Create(
+const  Estilo = StyleSheet.create(
     {
         text: {
             fontsize: 20,
