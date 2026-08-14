@@ -1,20 +1,21 @@
-import {View, Text, StyleSheet} from 'react-native'
+import {View, Text, StyleSheet} from 'react-native' 
 
-export default Sobre = ()=>{
+export default function Sobre(){
 
     return (
-        <View   >
-            <Text style={Estilo.text} >Olá Mundo</Text>
+        <View >
+            <Text style={Estilo.text}> 
+Olá Mundo
+</Text>
         </View>
-    );
+    );    
 }
 
-
-const  Estilo = StyleSheet.create(
+const Estilo = StyleSheet.create(
     {
-        text: {
-            fontsize: 20,
-            color: 'blue',
+        text:{
+            fontSize:20,
+            color:'blue',
         },
     }
-);
+)
